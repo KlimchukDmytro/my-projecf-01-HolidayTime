@@ -1,0 +1,13 @@
+.tityle {
+  background-color: #c6c6dc;
+  height: 140px;
+  display: flex;
+  align-items: center;
+}
+
+.tityle_text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 48px;
+  margin-left: 227px;
+}
