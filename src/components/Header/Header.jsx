@@ -19,22 +19,22 @@ const Header = () => {
           </NavLink>
         </div>
         <div className={s.list}>
-          <NavLink className={buildLinkClass} to="">
+          <NavLink className={buildLinkClass} to="/abaut">
             ПРО НАС
           </NavLink>
         </div>
         <div className={s.list}>
-          <NavLink className={buildLinkClass} to="">
+          <NavLink className={buildLinkClass} to="/reserve">
             ЗАБРОНЮВАТИ
           </NavLink>
         </div>
         <div className={s.list}>
-          <NavLink className={buildLinkClass} to="">
+          <NavLink className={buildLinkClass} to="/contacts">
             КОНТАКТИ
           </NavLink>
         </div>
         <div className={s.list}>
-          <NavLink className={buildLinkClass} to="">
+          <NavLink className={buildLinkClass} to="/personal">
             ОСОБИСТИЙ КАБІНЕТ
           </NavLink>
         </div>
