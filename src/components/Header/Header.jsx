@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import s from "./Header.module.css";
 import clsx from "clsx";
 import { HiOutlineGlobeAlt } from "react-icons/hi";
+import Rock from "../../assets/rock.png";
 
 const buildLinkClass = ({ isActive }) => {
   return clsx(s.link, isActive && s.active);
@@ -10,7 +11,7 @@ const buildLinkClass = ({ isActive }) => {
 const Header = () => {
   return (
     <header className={s.header}>
-      <img src="/" alt="rock" className={s.img} />
+      <img src={Rock} alt="rock" width="178" className={s.img} />
       <nav className={s.nav}>
         <div className={s.list}>
           <NavLink className={buildLinkClass} to="/">
